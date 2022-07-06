@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    body{
+    font-family: 'Courier Prime', monospace;
+    background-color: rgb(16, 13, 12);
+    }
+    .hero{
+        background-image: url(images/header-opcion-4.jpg);
+        width: 100%;
+        height: 650px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        position: relative;
+        overflow: hidden;
+        }
+        .textos-hero{
+            height: 500px;
+            color: rgb(173, 53, 35);
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            justify-content: center;
+            padding: 15%;
+        }
+
+        .textos-hero h1{
+            font-size: 60px;
+    
+        }
+
+    
+        .textos-hero a{
+            display: inline-block;
+            text-decoration: none;
+            padding: 12px 15px;
+            background: #d81010;
+            border-radius: 8px;
+            color: #fff;
+        }
+        .svg-hero{
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            }
+
+    /* Estilos generales */
+.contenedor,
+.wave-contenedor{
+width: 90%;
+max-width: 1000px;
+overflow: hidden;
+margin: auto;
+padding: 0 0 80px 0;
+} 
+
+.titulo{
+    font-weight:bold;
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 30px;
+    }
+/* Section */
+.wave-contenedor{
+    background: rgb(16, 15, 15);
+    color:#fff
+    
+    }
+    .website{
+    display: flex; 
+    justify-content: space-between; 
+    }
+   
+    .website .contenedor-textos-main{
+    width: 100%;
+    }
+    .parrafo{
+    text-align: justify;
+    margin-bottom: 50px;}
+
+    .cta{
+      display: inline-block; 
+      text-decoration: none; 
+      background-color: #501007; 
+      padding: 12px 15px;
+      border-radius: 8px;
+      color: #fff;
+    }
+
+    /* galeria */
+.galeria{
+    background: #b53c29;
+    }
+    .galeria-cont{
+    width: 100%;
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-evenly; 
+    overflow: hidden;
+    }
+    .galeria-cont>img{
+    width: 30%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    display: block;
+    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, .5);
+    cursor: pointer;
+    overflow: hidden;
+    }
+    @media screen and (max-width:786px){
+        .textos-hero h1{
+        text-align: center;
+        font-size: 50px;
+        }
+        /* estilos generales */
+        .titulo{
+        font-size: 35px;
+        }
+       
+        .info p{
+        text-align: center;
+        }
+        /* section */
+        .website{
+        flex-direction: column-reverse; 
+        justify-content: center;
+        align-items: center;
+        }
+        .website img{
+        width: 100%;
+        }
+        .website .contenedor-textos-main{
+        width: 100%;
+        }
+        /* galeria */
+        .galeria-cont>img{
+         width: 48%;
+        }
+    }
+    ul{
+        list-style: none;
+      }
+      #menu li>a{
+        background-color: black;
+        color: white;
+        padding: 15px;
+        display: block;
+        text-decoration: none;
+        min-width: 150px;
+      }
+      #menu li>a:hover{
+        color: #000;
+        background-color: #eaeaea;
+      }
+      #menu>li{
+        float: left;
+        text-align:center;
+      }
+      #menu>li>ul{
+        display: none;
+      }
+      #menu>li:hover>ul {
+        display:block;
+      }
+
+      h2 {
+        color: rgb(255, 255, 255);
+        font-family: 'Courier Prime', monospace;
+        font-size: 35px;
+        font-weight: bold;
+        margin-top: 0px;
+        margin-bottom: 1px;
+        }
+
+    Html {
+    scroll-behavior: smooth;
+    color: #fff;
+    }
+    

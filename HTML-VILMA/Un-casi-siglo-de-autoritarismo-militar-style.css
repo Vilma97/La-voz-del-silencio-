@@ -1,0 +1,121 @@
+*{
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+    }
+
+    body{
+        font-family: 'Courier Prime', monospace;
+        background-color: rgb(175, 10, 10);
+     }
+
+     header.img{
+        width:1000px;
+        height:600px;
+        display: center;
+      }
+h1 {
+color: black;
+font-family: 'Courier Prime', monospace;
+font-size: 50px;
+font-weight: bold;
+margin-top: 0px;
+margin-bottom: 1px;
+}
+
+h2 {
+color: black;
+font-family: 'Courier Prime', monospace;
+font-size: 35px;
+font-weight: bold;
+margin-top: 0px;
+margin-bottom: 1px;
+}
+
+h3 {
+  color: white;
+  font-family: 'Courier Prime', monospace;
+  font-size: 35px;
+  font-weight: bold;
+  margin-top: 0px;
+  margin-bottom: 1px;
+  }
+
+@media screen and (max-width:786px)
+
+
+{
+  .textos-hero h1{
+  text-align: center;
+  font-size: 50px;
+  }
+}
+/* Section */
+.contenedor{
+  background: rgb(23, 22, 22);
+  color:#fff
+}
+  .parrafo{
+    text-align: center;
+    margin-bottom: 50px;}
+    .cta{
+        display: inline-block; 
+        text-decoration: none; 
+        background-color: #501007; 
+        padding: 12px 15px;
+        border-radius: 8px;
+        color: #fff;
+    }  
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+header{
+  font-family: Helvetica;
+  width: 480px;
+  margin: 0 auto;
+}
+ul{
+  list-style: none;
+}
+#menu li>a{
+  background-color: black;
+  color: white;
+  padding: 15px;
+  display: block;
+  text-decoration: none;
+  min-width: 150px;
+}
+#menu li>a:hover{
+  color: #000;
+  background-color: #eaeaea;
+}
+#menu>li{
+  float: left;
+  text-align:center;
+}
+#menu>li>ul{
+  display: none;
+}
+#menu>li:hover>ul {
+  display:block;
+}
+
+#contenedor-video {
+  width:1000px ;
+  display: flex;
+  justify-content: space-evenly; 
+flex-wrap: wrap; 
+}
+
+
+Html {
+  scroll-behavior: smooth;
+  }
+
+
+      
